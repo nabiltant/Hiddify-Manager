@@ -16,8 +16,8 @@ services:
     #specific version
     #image: ghcr.io/hiddify/hiddify-manager:v10.80.0
     ports:
-      - "99:80"
-      - "443:443"
+      - "99:99"
+      - "999:999"
     privileged: true
     cap_add:
       - NET_ADMIN
